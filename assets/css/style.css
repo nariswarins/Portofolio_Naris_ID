@@ -164,7 +164,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .hero__title { margin: 0; text-align: center; line-height: 0.85; }
 .hero__word {
   display: inline-block; position: relative; isolation: isolate;
-  font-size: clamp(3.8rem, 18.5vw, 17rem); font-weight: 900; letter-spacing: -0.06em;
+  font-size: clamp(3.8rem, 18vw, 15.5rem); font-weight: 900; letter-spacing: -0.06em;
   animation: rise 1s cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 .hero__word::before, .hero__word::after {
