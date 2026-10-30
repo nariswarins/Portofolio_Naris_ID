@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nariswari Nur Shabrina — Portofolio</title>
+  <meta name="description" content="Portofolio Nariswari Nur Shabrina, lulusan Teknik Informatika dengan spesialisasi AI, Machine Learning, Deep Learning, dan NLP.">
+  <meta property="og:title" content="Nariswari Nur Shabrina — Portofolio">
+  <meta property="og:description" content="AI · Machine Learning · NLP · UI/UX">
+  <meta property="og:image" content="assets/img/profile.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%23111'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='900' font-size='30' fill='%23f3f0ea'>N</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    try {
+      var savedTheme = localStorage.getItem('theme');
+      if (savedTheme) { document.documentElement.dataset.theme = savedTheme; }
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Langsung ke konten</a>
+  <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#home" aria-label="Kembali ke atas">N<span>.</span></a>
+    <nav aria-label="Navigasi utama">
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#experience">Pengalaman</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#publication">Publikasi</a></li>
+        <li><a href="#certifications">Sertifikasi</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+    <div class="nav__actions">
+      <a class="lang-switch" href="https://nariswarins.github.io/Portofolio_Naris/" aria-label="Switch to English version">EN</a>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Ganti mode gelap/terang">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <button class="icon-btn nav__burger" id="nav-toggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="nav-links">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <h1 class="hero__title" aria-label="Portofolio">
+        <span class="hero__word" data-text="Portofolio">Portofolio</span>
+      </h1>
+      <div class="hero__bottom">
+        <p class="hero__role">
+          <span class="hero__role-label">Saya seorang</span>
+          <span class="typed" id="typed" aria-live="polite">AI Engineer</span><span class="caret" aria-hidden="true"></span>
+        </p>
+        <p class="hero__name">Nariswari Nur Shabrina</p>
+      </div>
+      <a class="hero__scroll" href="#about" aria-label="Gulir ke bagian Tentang">
+        <span>Gulir</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="about__text reveal">
+          <p class="eyebrow">Perkenalan</p>
+          <h2 class="display">Halo, saya<br>Nariswari Nur Shabrina!</h2>
+          <p class="lead">
+            Saya lulusan Teknik Informatika dengan fokus pada Artificial Intelligence, memiliki keahlian di
+            Machine Learning dan Natural Language Processing. Saya merancang dan mengimplementasikan sistem
+            cerdas yang menjembatani riset dan penerapan di dunia nyata, dengan pengalaman dalam pengembangan
+            model, optimasi sistem, dan dokumentasi teknis.
+          </p>
+          <div class="about__cta">
+            <a class="btn btn--solid" href="#projects">Lihat proyek saya</a>
+            <a class="btn" href="#contact">Hubungi saya</a>
+          </div>
+          <div class="about__cv">
+            <a class="btn btn--small" href="assets/cv/Nariswari-Nur-Shabrina-CV-ID.pdf" download>Unduh CV (Indonesia)</a>
+            <a class="btn btn--small" href="assets/cv/Nariswari-Nur-Shabrina-CV-EN.pdf" download>Unduh CV (English)</a>
+          </div>
+        </div>
+        <figure class="about__photo reveal">
+          <img src="assets/img/profile.jpg" alt="Potret Nariswari Nur Shabrina" width="1200" height="800" loading="lazy">
+          <figcaption>Bandung, Indonesia</figcaption>
+        </figure>
+      </div>
+
+      <div class="container stats" id="stats"></div>
+
+      <div class="container edu reveal">
+        <div class="edu__images">
+          <img src="assets/img/campus-1.jpg" alt="Gedung kampus Universitas Jenderal Achmad Yani" loading="lazy" width="739" height="227">
+          <img src="assets/img/graduation.jpg" alt="Nariswari saat hari kelulusan" loading="lazy" width="1100" height="840">
+        </div>
+        <div class="edu__body">
+          <p class="eyebrow">Pendidikan</p>
+          <h3 class="h3">Universitas Jenderal Achmad Yani</h3>
+          <p class="muted">S1 Teknik Informatika · Cimahi – Bandung · Sep 2021 – Sep 2025</p>
+          <p class="edu__gpa">IPK <strong>3.56</strong> / 4.00 <span class="tag">Cum Laude</span></p>
+          <p>
+            Memiliki spesialisasi pada bidang Artificial Intelligence dengan fokus pada Machine Learning, Deep
+            Learning, dan Natural Language Processing. Ketua Tim Program Kreativitas Mahasiswa (PKM-RE) untuk
+            riset Brain-Computer Interface dan Pengenalan Emosi Suara Bahasa Indonesia.
+          </p>
+        </div>
+      </div>
+
+      <div class="container skills reveal">
+        <p class="eyebrow">Keahlian</p>
+        <h3 class="h3">Yang saya kuasai</h3>
+        <div class="skills__grid" id="skills"></div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section section--alt" id="experience">
+      <div class="container">
+        <h2 class="mega reveal">Pengalaman</h2>
+        <div class="tabs reveal" role="tablist" aria-label="Kategori pengalaman" id="exp-tabs">
+          <button role="tab" aria-selected="true" data-filter="all">Semua</button>
+          <button role="tab" aria-selected="false" data-filter="professional">Profesional</button>
+          <button role="tab" aria-selected="false" data-filter="research">Riset</button>
+          <button role="tab" aria-selected="false" data-filter="study">Studi Independen</button>
+          <button role="tab" aria-selected="false" data-filter="organization">Organisasi</button>
+        </div>
+        <ol class="timeline" id="timeline"></ol>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="mega reveal">Proyek</h2>
+        <div class="chips reveal" id="project-filters" aria-label="Filter proyek">
+          <button class="chip is-active" data-filter="all" aria-pressed="true">Semua</button>
+          <button class="chip" data-filter="AI/ML" aria-pressed="false">AI / ML</button>
+          <button class="chip" data-filter="Research" aria-pressed="false">Riset</button>
+          <button class="chip" data-filter="Web" aria-pressed="false">Web</button>
+          <button class="chip" data-filter="UI/UX" aria-pressed="false">UI / UX</button>
+        </div>
+        <div class="projects" id="project-grid"></div>
+      </div>
+    </section>
+
+    <!-- PUBLICATION & ACHIEVEMENTS -->
+    <section class="section section--alt" id="publication">
+      <div class="container">
+        <h2 class="mega mega--underline reveal">Publikasi</h2>
+        <a class="pub reveal" href="https://jutif.if.unsoed.ac.id/index.php/jurnal/article/view/5183" target="_blank" rel="noopener">
+          <span class="pub__meta">Jurnal Teknik Informatika (JUTIF) · Universitas Jenderal Soedirman · 2025</span>
+          <span class="pub__title">A BiLSTM-Based Approach For Speech Emotion Recognition In Conversational Indonesian Audio using SMOTE</span>
+          <span class="pub__abstract">
+            Speech Emotion Recognition (SER) mengenali emosi manusia melalui analisis sinyal suara, dengan fokus
+            pada pitch, intonasi, dan tempo. Penelitian ini menentukan sampling rate optimal 48.000 Hz, mengikuti
+            teorema Nyquist–Shannon…
+          </span>
+          <span class="pub__link">Baca artikel <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        </a>
+
+        <div class="achievements reveal">
+          <p class="eyebrow">Pencapaian</p>
+          <ul id="achievements"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <h2 class="mega reveal">Sertifikasi</h2>
+        <div class="cert-tools reveal">
+          <label class="search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <span class="sr-only">Cari sertifikasi</span>
+            <input type="search" id="cert-search" placeholder="Cari mis. security, data, AI…" autocomplete="off">
+          </label>
+          <p class="muted" id="cert-count" aria-live="polite"></p>
+        </div>
+        <ul class="certs" id="cert-list"></ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <p class="eyebrow reveal">Kontak</p>
+        <h2 class="display reveal">Mari membangun sesuatu<br>yang cerdas bersama.</h2>
+        <div class="contact__email reveal">
+          <a href="mailto:nariswari26@gmail.com">nariswari26@gmail.com</a>
+          <button class="btn btn--small" id="copy-email" type="button" data-email="nariswari26@gmail.com">Salin</button>
+        </div>
+        <ul class="contact__links reveal">
+          <li><a href="https://www.linkedin.com/in/nariswarins/" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+          <li><a href="https://www.instagram.com/shabrinann__" target="_blank" rel="noopener">Instagram ↗</a></li>
+          <li><a href="https://github.com/nariswarins" target="_blank" rel="noopener">GitHub ↗</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Nariswari Nur Shabrina</p>
+    <a href="#home">Kembali ke atas ↑</a>
+  </footer>
+
+  <dialog class="modal" id="modal" aria-labelledby="modal-title">
+    <button class="icon-btn modal__close" type="button" id="modal-close" aria-label="Tutup">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <div id="modal-body"></div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
